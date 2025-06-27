@@ -57,7 +57,7 @@ let alertaSom;
 
 function setup() {
 
-  createCanvas(360, 640);
+  let canvas = createCanvas(windowWidth, windowHeight);
 
   textFont("Arial");
 
